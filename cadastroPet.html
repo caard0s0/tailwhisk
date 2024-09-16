@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        
+        <title>Cadastro Pet | TailWhisk</title>
+
+        <link rel="stylesheet" href="./css/forms.css">
+        <link rel="stylesheet" href="./css/global.css">
+
+    </head>
+    <body>
+
+        <div class="phone_box">
+
+            <div class="container-cadastro">
+
+                <a href="cadastroUsuario.html" class="close-btn">
+                    <ion-icon name="chevron-back"></ion-icon>
+                </a>
+
+                <div class="logo">
+                    <img src="./img/cat_logo.jpg" alt="Logo">
+                </div>
+
+                <h1>Cadastrar Pet</h1>
+
+                <form class="signup-form">
+
+                    <div class="input-group">
+                        <label for="nome">Nome</label>
+                        <input autofocus type="text" id="nome" placeholder="Digite o nome do seu Pet">
+                    </div>
+        
+                    <div class="input-side">
+                        <div class="input-group">
+                            <label for="tipo">Tipo</label>
+                            <select class="form-select select" aria-label="Default select example">
+                                <option selected>Selecione</option>
+                                <option value="1">Cachorro</option>
+                                <option value="2">Gato</option>
+                                <option value="3">Outros</option>
+                            </select>
+                        </div>
+            
+                        <div class="input-group">
+                            <label for="raca">Raça</label>
+                            <select class="form-select select" aria-label="Default select example">
+                                <option selected>Selecione</option>
+                                <option value="1">Labrador</option>
+                                <option value="2">Beagle</option>
+                                <option value="3">Siamês</option>
+                                <option value="4">Persa</option>
+                                <option value="5">Outros</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="input-group">
+                        <label>Temperamento: (0:Calmo a 5:Nervoso)</label>
+                        <input type="range" min="0" max="5" step="1" name="temperamento"/>
+                    </div>
+        
+                    <a href="catalogo.html" class="btn-submit">Cadastrar Pet</a>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    </body>
+
+</html>

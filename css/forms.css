@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.container-cadastro {
+    background-color: #fff;
+    min-width: 400px;
+    padding: 0 4rem 4rem 4rem;
+    height: 100vh;
+    position: relative;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    font-size: 3.5rem;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.logo img {
+    margin-top: 8.5rem;
+    width: 80px;
+    height: auto;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 2.8rem;
+}
+
+/* Form Styles */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.8rem;
+}
+
+.input-group {
+    margin-bottom: 3rem;
+}
+
+.input-side {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-group label {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 2rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.select {
+    padding: 2rem;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Button */
+.btn-submit {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    border: none;
+    padding: 2rem;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-submit:hover {
+    background-color: #333;
+}
