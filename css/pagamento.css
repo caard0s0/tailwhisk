@@ -1,0 +1,38 @@
+.input-group input {
+    padding: 2rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    width: 45%;
+}
+
+.select {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.result {
+    display: flex;
+    flex-direction: column
+}
+
+.result h2 {
+    font-size: 2rem;
+    margin-bottom: 1.4rem;
+    margin-top: 3rem;
+}
+
+.side {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+    font-size: 1.7rem;
+}
+
+.desconto {
+    color: #11BC2C;
+}
+
+.btn-submit {
+    background-color: #0F0FC2;
+}
