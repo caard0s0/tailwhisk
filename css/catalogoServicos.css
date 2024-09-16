@@ -1,0 +1,79 @@
+header {
+    height: 6rem;
+}
+
+.subtitle-catalogo {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    color: #121214;
+}
+
+.p-agenda {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: gray;
+
+    margin-bottom: 1.9rem;
+}
+
+.benefits {
+    background-color: #E1E1E6;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+.benefits-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    margin-bottom: 1rem;
+}
+
+.benefits-group p {
+    font-size: 1.4rem;
+}
+
+.check-icon {
+    color: #08D4EF;
+    font-size: 2.5rem;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+    
+    margin-top: 1.75rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 1.4rem;
+}
+
+.select {
+    padding: 1rem;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color: #333;
+    font-size: 2rem;
+    margin-top: 0.6rem;
+}
+
+.total {
+    margin-top: 1.4rem;
+    font-size: 1.7rem;
+}
+
+.btn-agendar {
+    width: 100%;
+    margin-top: 3.5rem;
+}

@@ -1,0 +1,91 @@
+header {
+    background-color: #fff;
+
+    height: 9rem;
+    padding: 0.5rem;
+    padding-top: 1.3rem;
+}
+
+.home-text-box {
+    height: 100vh;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
+}
+
+ion-icon {
+    font-size: 4rem;
+    cursor: pointer;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.search-bar {
+    background-color: #E1E1E6;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 12px;
+}
+
+.search-bar input {
+    background-color: #E1E1E6;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+
+.icon-search-bar {
+    margin-left: 1.75rem;
+    font-size: 2rem;
+}
+
+.title-catalogo {
+    font-weight: 500;
+    margin-top: 4rem;
+    margin-bottom: 2.7rem;
+    font-size: 2.5rem;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.8rem;
+}
+
+.product {
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+.product h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.link-pagamento {
+    text-decoration: none;
+}
